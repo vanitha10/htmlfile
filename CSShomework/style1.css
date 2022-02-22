@@ -28,6 +28,7 @@ table.center {
   text-align: center;
   color: rgb(110, 163, 161);
 }
+
 table, th, td {
   border: 1px solid;
   align:center;
@@ -55,6 +56,15 @@ a:active {
 
 h1{
     color:#721372;
+
+}
+
+table th:first-letter{
+text-transform:capitalize;
+}
+
+h1{
+  color:#721372;
 
 }
 
