@@ -1,0 +1,79 @@
+.parent{
+
+    border:2px blue dotted 
+
+}
+
+.box{
+   display:inline-block;
+
+    background: red;
+    height:20px;
+width: 30px;
+
+}
+#two{
+
+    background: green;
+    top:20px;
+    left:20px;
+    position: ;
+
+}
+
+
+.overflow
+{
+background-color: blueviolet;
+border: 2px solid;
+width: 150px;
+overflow:scroll;
+}
+
+img{
+    width:100px;
+    heigth:100px;
+    float:right;
+}
+
+
+#div4{
+float:right;
+padding :10px;
+border : 2px solid
+}
+
+#div5{
+   
+    padding :10px;
+    border : 2px solid;
+    clear:right;
+
+    }
+
+    .clearfix{
+
+        overflow:auto;
+
+    }
+
+    #noclear{
+border 2px solid;
+overflow:auto;
+    }
+
+    #img1{
+
+        position: absolute;
+        left:0px;
+        z-index:-1;
+            }
+
+
+            #box1{
+                margin-top: 60px;
+                    border:2px solid;
+                    padding: 20px;
+                    width: 200px;
+                    box-sizing: border-box;
+            }
