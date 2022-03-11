@@ -67,6 +67,7 @@ overflow:auto;
         position: absolute;
         left:0px;
         z-index:-1;
+        border-round: 30px;
             }
 
 
@@ -76,4 +77,98 @@ overflow:auto;
                     padding: 20px;
                     width: 200px;
                     box-sizing: border-box;
+                    border-left;
             }
+
+            .container{
+
+                padding :1em;
+
+            }
+
+            .cell{
+                background-color: rgb(118, 118, 199);
+                padding:1em;
+
+            }
+
+            .flex
+            {
+
+                display: flex;
+                gap:1em;
+                flex-wrap: wrap;
+            }
+            .flex > .cell{
+                flex-grow: 2;
+
+            }
+            .flex > .cell:nth-child(2){
+                flex-grow: 4;
+
+            }
+            .grid{
+                display:grid;
+                grid-template-columns:1fr 2fr;
+                gap:2em;
+            }
+            @media screen(min-width:600px)
+            {grid{
+
+                gird-template-columns:repeat(3, 1fr)
+
+            }
+        
+        }
+
+
+        #animation {
+
+            width:100px;
+            height:100px;
+
+            background-color: rgb(182, 27, 27);
+            position:
+            animation-name: new-animation;
+            animation-duration: 8s;
+            animation-iteration-count: 4;
+
+        }
+        @keyframes  my-animation {
+           0%{background-color: blue;}
+
+            25%{background-attachment: green;}
+            50%{background-color: brown;}
+            100%{background-color: blueviolet;}
+        }
+
+        @keyframes  new-animation {
+            0%{background-color: blue;}
+ 
+             25%{background-attachment: green;}
+             50%{background-color: brown;}
+             100%{background-color: blueviolet;}
+         }
+
+
+        #div11{
+
+            animation-timing-function: linear;
+        }
+        #div12{
+
+            animation-timing-function: linear;
+        }
+        #div12{
+
+            animation-timing-function: linear;
+        }
+
+        #div13{
+
+            animation-timing-function: linear;
+        }
+        #div14{
+
+            animation-timing-function: linear;
+        }
